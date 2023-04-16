@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+    font-family: "Raleway";
+    src: url(./fonts/Raleway-VariableFont_wght.ttf) format('truetype');
+    src: url(./fonts/Raleway-VariableFont_wght.woff);
+}
+*{
+    font-family: "Raleway", sans-serif;
+}
+body{
+    width: 1160px;
+    margin: auto;
+}
+header{
+    background-color: #782221;
+}
+figure{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    padding: 40px;
+}
+header img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 30px #2c1d27;
+}
+h1, h2{
+    font-family: "Lato", sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+header section{
+    background-color: #2c1d27;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+header section div{
+    margin: 20px;
+    
+}
+header section address a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+main h3{
+    font-family: "Lato", sans-serif;
+    color: black;
+}
+.aside{
+    background-color: #782221;
+    color: white;
+    width: 300px;
+    height: 100%;
+    border-top: solid 5px #782221;
+    border-right: solid 15px #782221;
+}
+.aside h3{
+    background-color: #dbc2a4;
+    width: 250px;
+}
+.aside__apropos p{
+    text-indent: 20px;
+    text-align: justify;
+    width: 250px;
+}
+.article{
+    border: solid 20px white;
+    color: black;
+}
+.article h3{
+    border-left: solid 10px #782221;
+    background-color: #dbc2a4;
+}
+.article__xp__1, .article__formation__1{
+    list-style-type: none;
+}
+.article__xp__2{
+    list-style-type: disc;
+}
+footer{
+    background-color: #782221; 
+    color: white;
+    text-align: center;
+}
