@@ -87,4 +87,15 @@ footer{
     background-color: #782221; 
     color: white;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+footer img{
+    background-color: white; 
+    margin: 20px 5px 0 5px;  
+}
+footer small{
+    padding: 20px;
+    
 }
