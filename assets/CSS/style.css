@@ -57,6 +57,10 @@ header section address a:hover{
     text-decoration: underline;
 }
 /* main */
+main{
+    display: flex;
+    flex-direction: row;
+}
 main h3{
     font-family: "Lato", sans-serif;
     color: black;
@@ -106,10 +110,7 @@ article{
 footer{
     background-color: #782221; 
     color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    
+    text-align: center;  
 }
 footer img{
     background-color: white; 
@@ -119,9 +120,7 @@ footer img:hover{
     opacity: 0.8;
 }
 footer small{
-    padding: 20px;    
+    display: block;
+    padding: 30px;    
 }
-main{
-    display: flex;
-    flex-direction: row;
-}
+
