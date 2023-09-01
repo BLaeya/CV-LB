@@ -1,126 +1,123 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
 @font-face {
-    font-family: "Raleway";
-    src: url(./fonts/Raleway-VariableFont_wght.ttf) format('truetype');
-    src: url(./fonts/Raleway-VariableFont_wght.woff);
+  font-family: "Raleway";
+  src: url(./fonts/Raleway-VariableFont_wght.ttf) format("truetype");
+  src: url(./fonts/Raleway-VariableFont_wght.woff);
 }
-*{
-    font-family: "Raleway", sans-serif;
-    }
-body{
-    width: 1160px;
-    margin: auto;
+* {
+  font-family: "Raleway", sans-serif;
+}
+body {
+  width: 1160px;
+  margin: auto;
 }
 /* header */
-header{
-    background-color: #782221;
+header {
+  background-color: #782221;
 }
-figure{
-    height: 150px;
-    width: 150px;
-    margin: auto;
-    padding: 30px;
+figure {
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  padding: 30px;
 }
-header img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 0 30px #2c1d27;
+header img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 30px #2c1d27;
 }
-header img:hover{
-    cursor: zoom-in;
+header img:hover {
+  cursor: zoom-in;
 }
-h1, h2{
-    font-family: "Lato", sans-serif;
-    color: white;
-    text-align: center;
-    margin-bottom: 50px;
+h1,
+h2 {
+  font-family: "Lato", sans-serif;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
 }
-header section{
-    background-color: #2c1d27;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
+header section {
+  background-color: #2c1d27;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
 }
-header section div{
-    margin: 20px;
-    
+header section div {
+  margin: 20px;
 }
-header section address a{
-    color: white;
-    font-weight: 700;
-    text-decoration: none;
+header section address a {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
 }
-header section address a:hover{
-    text-decoration: underline;
+header section address a:hover {
+  text-decoration: underline;
 }
 /* main */
-main{
-    display: flex;
-    flex-direction: row;
+main {
+  display: flex;
+  flex-direction: row;
 }
-main h3{
-    font-family: "Lato", sans-serif;
-    color: black;
+main h3 {
+  font-family: "Lato", sans-serif;
+  color: black;
 }
-.aside{
-    background-color: #782221;
-    color: white;
-    width: 300px;
-    height: 740px;
-    
-
+.aside {
+  background-color: #782221;
+  color: white;
+  width: 300px;
+  height: 800px;
 }
-.aside h3{
-    background-color: #dbc2a4;
-    width: 90%;
+.aside h3 {
+  background-color: #dbc2a4;
+  width: 90%;
 }
-.aside__apropos p{
-    text-indent: 30px;
-    text-align: justify;
-    margin:  0 20px;
+.aside__apropos p {
+  text-indent: 30px;
+  text-align: justify;
+  margin: 0 20px;
 }
 
-.article{
-    color: black;
-    border-right: solid 2px #2c1d27;
-
-    }
-article{
-    padding: 18px 30px;
+.article {
+  color: black;
+  border-right: solid 2px #2c1d27;
 }
-.article h3{
-    border-left: solid 10px #782221;
-    background-color: #dbc2a4;
-    margin: 0;
+article {
+  padding: 18px 30px;
 }
-.article li:hover{
-    border-right: solid 5px #782221;
+.article h3 {
+  border-left: solid 10px #782221;
+  background-color: #dbc2a4;
+  margin: 0;
 }
-.article__xp__1, .article__formation__1{
-    padding-left: 0;
-    list-style-type: none;
+.article li:hover {
+  border-right: solid 5px #782221;
 }
-.article__xp__2{
-    list-style-type: disc;
+.article__xp__1,
+.article__formation__1 {
+  padding-left: 0;
+  list-style-type: none;
+}
+.article__xp__2 {
+  list-style-type: disc;
 }
 /* footer */
-footer{
-    background-color: #782221; 
-    color: white;
-    text-align: center;  
+footer {
+  background-color: #782221;
+  color: white;
+  text-align: center;
 }
-footer img{
-    background-color: white; 
-    margin: 20px 5px 0 5px;  
+footer img {
+  background-color: white;
+  margin: 20px 5px 0 5px;
 }
-footer img:hover{
-    opacity: 0.8;
+footer img:hover {
+  opacity: 0.8;
 }
-footer small{
-    display: block;
-    padding: 30px;    
+footer small {
+  display: block;
+  padding: 30px;
 }
-
